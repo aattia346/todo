@@ -1,0 +1,22 @@
+{
+    "name": "user",
+    "base": "User",
+    "idInjection": true,
+    "options": {
+      "validateUpsert": true
+    },
+    "mixins": {
+    },
+    "properties": {
+      "username": {
+        "type": "string"
+      }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [
+     
+    ],
+    "methods": {}
+  }
+  

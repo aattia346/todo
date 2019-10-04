@@ -1,0 +1,36 @@
+{
+    "name": "todo",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+      "validateUpsert": true
+    },
+    "mixins": {
+    },
+    "properties": {
+      "text": {
+        "type": "string",
+        "required": true
+      },
+      "userId": {
+        "type": "string",
+        "required": true
+      },
+      "isDeleted": {
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "validations": [],
+    "relations": {
+      "user":{
+        "type": "belongsTo",
+        "model": "user",
+        "foreignKey": "userId"
+      }
+    },
+    "acls": [
+      
+    ],
+    "methods": {}
+  }

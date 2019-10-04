@@ -1,0 +1,18 @@
+[
+  {
+    "_id": {
+      "$oid": "5af0902724589e0dd88e901c"
+    },
+    "email" : "user1@todo.com",
+    "password" : "$2a$10$3gCh5eDUeX7KUOPZhfUyD.rtW/3IANNGOfFHMxF3oVd6HXt2PwIi2",
+    "username" : "111111"
+  },
+  {
+    "_id": {
+      "$oid": "5af0902724589e0dd88e988c"
+    },
+    "email" : "user2@todo.com",
+    "password" : "$2a$10$3gCh5eDUeX7KUOPZhfUyD.rtW/3IANNGOfFHMxF3oVd6HXt2PwIi2",
+    "username" : "222222"
+  }
+]
